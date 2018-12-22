@@ -4,8 +4,8 @@ import java.util.Scanner;
 
 public class FlowersBouquet {
 
-    int numberFlowers;
     int priceFlower;
+    int numberFlowers;
 
     public static void calculator() {
 
