@@ -33,9 +33,10 @@ public class FlowersBouquet {
         System.out.print("How many tulips should be in the bouquet: ");
         tulip.numberFlowers = inputTulip.nextInt();
 
-        int calculator = (lily.numberFlowers * lily.priceFlower) + (rose.priceFlower * rose.numberFlowers) + (tulip.numberFlowers * tulip.priceFlower);
+        int calculatorPrice = (lily.numberFlowers * lily.priceFlower) + (rose.priceFlower * rose.numberFlowers) + (tulip.numberFlowers * tulip.priceFlower);
+        int calculatorFlowers = (lily.numberFlowers + rose.numberFlowers + tulip.numberFlowers);
 
-        System.out.println("The price of your bouguet is: "+ calculator);
+        System.out.println("The price of your bouquet is: "+ calculatorPrice + "\nThere are " + calculatorFlowers + " flowers in it.");
     }
 
     public static void main(String[] args) {
