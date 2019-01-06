@@ -42,6 +42,7 @@ public class ScannerClass {
 
         // useDelimeter()
         // разделитель
+
         Scanner scan = new Scanner("Anna Mills/Female/20");
         scan.useDelimiter("/");
 
@@ -49,7 +50,6 @@ public class ScannerClass {
             System.out.println(scan.next());
         }
         scan.close();
-
 
     }
 }
