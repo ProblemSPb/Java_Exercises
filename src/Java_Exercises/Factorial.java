@@ -26,3 +26,11 @@ public class Factorial
         System.out.println("The factorial of the number is : " + a);
     }
 }
+
+    /*
+    fact(4)
+    fact(3) * 4;
+    (fact(2) * 3) * 4;
+    ((fact(1) * 2) * 3) * 4;
+    ((1 * 2) * 3) * 4;
+     */
